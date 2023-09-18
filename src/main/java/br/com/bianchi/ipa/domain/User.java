@@ -2,6 +2,10 @@ package br.com.bianchi.ipa.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Column;
 
 @Data
 @AllArgsConstructor

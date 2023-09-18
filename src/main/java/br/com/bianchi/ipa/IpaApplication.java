@@ -8,6 +8,7 @@ public class IpaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(IpaApplication.class, args);
-	}
 
+	//	User user = new User (2,"Pedro", "pedro@gmail.com", "tteucu");
+    }
 }
