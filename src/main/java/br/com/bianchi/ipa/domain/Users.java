@@ -10,7 +10,9 @@ import jakarta.persistence.Column;
 
 @Entity
 public class Users {
-
+ /* 
+  * Alterado User para Users,  pois a palavra é resevada do java.
+  */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer Id;
