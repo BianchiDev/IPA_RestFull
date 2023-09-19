@@ -13,7 +13,7 @@ import java.util.List;
 @Profile("local")
 public class LocalConfig {
 
-/*     @Autowired
+   @Autowired
     private UserRepository repository;
     
     @Bean
@@ -22,5 +22,5 @@ public class LocalConfig {
         Users u3 = new Users(null,"kayky", "kayky@gmail.com", "123");
 
         repository.saveAll(List.of(u2, u3));
-    } */
+    } 
 }
