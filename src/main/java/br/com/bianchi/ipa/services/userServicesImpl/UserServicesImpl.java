@@ -1,6 +1,6 @@
 package br.com.bianchi.ipa.services.userServicesImpl;
 
-import br.com.bianchi.ipa.domain.User;
+import br.com.bianchi.ipa.domain.Users;
 import br.com.bianchi.ipa.repositores.UserRepository;
 import br.com.bianchi.ipa.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +14,8 @@ public class UserServicesImpl implements UserService {
     @Autowired
     private UserRepository repository;
     @Override
-    public User findById(Integer id) {
-        Optional<User> obj = repository.findById(id);
+    public Users findById(Integer id) {
+        Optional<Users> obj = repository.findById(id);
         return obj.orElse(null);
     }
 }

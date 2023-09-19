@@ -1,7 +1,7 @@
 package br.com.bianchi.ipa.services;
 
-import br.com.bianchi.ipa.domain.User;
+import br.com.bianchi.ipa.domain.Users;
 
 public interface UserService {
-    User findById(Integer id);
+    Users findById(Integer id);
 }
