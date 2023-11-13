@@ -16,6 +16,6 @@ public class ModelMapper {
     }
 
     public Object map(Users findById, Class<UserDTO> class1) {
-        return null;
+        return UserDTO.class;
     }
 }
